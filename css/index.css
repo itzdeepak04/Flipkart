@@ -1,0 +1,216 @@
+*{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .head{
+            height: 60px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            position: fixed;
+        }
+        .div1h{
+            height: 60px;
+            width: 150px;
+        }
+        .div1h img{
+            height: 40px;
+            width: 150px;
+            margin-top: 10px; 
+        }
+        .div2h{
+            height: 60px;
+            width: 500px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            flex-grow: 1;
+        }
+        .div2h input{
+            height: 40px;
+            width: 94%;
+            margin-left: 3% ;
+            border-radius: 10px;
+            background-color: azure;
+            border: 0px azure;
+            font-size: 18px;
+            padding-left: 20px;
+            flex-grow: 1;
+        }
+        .div3h{
+            height: 60px;
+            width: 600px;
+        }
+        .div3h a{
+            text-decoration: none;
+            float: left;
+            font-size: 20px;
+            margin-left: 30px;
+            margin-top: 20px;
+            color: black;
+        }
+        i{
+            margin-right: 10px;
+        }
+        .main{
+            height: auto;
+            width: 100%;
+            background-color: rgba(211, 206, 206, 0.8);
+            padding-top: 70px;
+        }
+        .div1m{
+            height: 140px;
+            width: 98%;
+            background-color: white;
+            margin-left: 1%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            column-gap: 20px;
+        }
+        .icon{
+            height: 100px;
+            width: 5%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 15px;
+            font-family: sans-serif;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+            height: 75px;
+            width: 100%;
+             align-self: center;
+        }
+        .icon2{
+            flex-basis: 10%;
+        }
+        .icon2 img{
+             height: 75px;
+            width: 60%;
+        }
+        .icon3{
+            flex-basis: 12%;
+        }
+        .icon3 img{
+             height: 75px;
+            width: 60%;
+        }
+        .iconhead{
+            width: 100%;
+            text-align: center;
+        }
+        .advertisement{
+            height: 250px;
+            width: 98%;
+            background-color: white;
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+        .advertisement img{
+            height: 100%;
+            width: 100%;
+        }
+        .start{
+            height: 380px;
+            width: 98%;
+            margin-left: 1%;
+        }
+         .buy1{
+            height: 350px;
+            width: 83%;
+            background-color: white;
+            margin-top: 1%;
+            float: left;
+
+        }
+        .buy1hc{
+            height: 30px;
+            width: 100%;
+            font-size: 30px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .buy1p{
+            height: 310px;
+            width: 100%;
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .buy1c{
+            height: 250px;
+            width: 200px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .buy1c img{
+            height: 190px;
+            width: 100%;
+        }
+         .airplane{
+            height: 360px;
+            width: 16%;
+            background-color: white;
+            margin-top: 10px;
+            float: right;
+        }
+        .airplane img{
+            height: 100%;
+            width: 100%;
+        }
+        .buy1c img{
+            height: 190px;
+            width: 100%;
+        }
+         .buy2{
+            height: 350px;
+            width: 98%;
+            background-color: white;
+            margin-left: 1%;
+        }
+        .buy2hc{
+            height: 40px;
+            width: 99%;
+            font-size: 30px;
+            margin-left: 1%;
+            padding-top:10px ;
+        }
+        .buy2p{
+            height: 310px;
+            width: 100%;
+            display: flex;
+            gap: 70px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .buy2c{
+            height: 250px;
+            width: 150px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .buy2c img{
+            height: 190px;
+            width: 100%;
+        }
+        .buy2c1 img{
+            width: 120px;
+        }
+        .buy2c2 img{
+            height: 150px;
+            margin-bottom: 40px;
+        }
+        .buy2c3{
+            flex-basis: 175px;
+        }
